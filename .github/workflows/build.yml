@@ -17,7 +17,7 @@ jobs:
       - name: Checkout arm-oraclelinux-wls-admin
         uses: actions/checkout@v2
         with:
-          path: arm-oracle-wls-admin  
+          path: arm-oraclelinux-wls-admin  
       - name: Set up JDK 1.8
         uses: actions/setup-java@v1
         with:
