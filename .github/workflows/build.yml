@@ -7,7 +7,7 @@ jobs:
       - name: Checkout azure-javaee-iaas
         uses: actions/checkout@v2
         with:
-          repository: Azure/azure-javaee-iaas
+          repository: galiacheng/azure-javaee-iaas
           path: azure-javaee-iaas        
       - name: Checkout azure-quickstart-templates
         uses: actions/checkout@v2
